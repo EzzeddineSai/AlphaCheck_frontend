@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+    <title>AlphaCheck</title>
+</head>
+<body class="body">
+    <div class="titlediv">
+        <p class="maintitle">AlphaCheck</p>
+        <p class="subtitle">
+            An AlphaZero based checkers AI
+            <br>Find more info here.
+        </p>
+    </div>
+    
+    <div class="canvasdiv">
+        <canvas id="canvas" width="400" height="400">
+            Main body
+        </canvas>
+    </div>
+    <div class="messagediv">
+        <p id="message"></p>
+    </div>
+    
+    <script src="https://cdn.socket.io/4.6.0/socket.io.min.js" integrity="sha384-c79GN5VsunZvi+Q/WObgk2in0CbZsHnjEqvFxC5DxHn9lTfNce2WW6h2pH6u/kF+" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
