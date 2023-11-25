@@ -5,6 +5,20 @@
     color:rgb(255, 255, 255);
   }
 
+  a:link {
+    color: rgb(0, 150, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(0, 150, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+
+
 .canvasdiv{
     margin: auto;
     width: 400px;
